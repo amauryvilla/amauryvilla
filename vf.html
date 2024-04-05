@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Completa de la Empresa</title>
+    <style>
+        /* Estilos para el encabezado */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #f5f5f5;
+        }
+        .logo, .navigation {
+            margin: 0 15px;
+        }
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+        }
+        .navigation ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Estilos para la sección Hero */
+        .hero {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Estilos para las secciones de dos y tres columnas */
+        .two-columns-section, .three-columns-section {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .column {
+            flex: 1;
+        }
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para el footer */
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .social-buttons {
+            margin-bottom: 20px;
+        }
+        .social-buttons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .rights {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="/Users/amauryvilla/Desktop/Captura de pantalla 2024-04-05 a la(s) 9.30.47 a.m..png" length="50px" width="50px" alt="Logo de la Empresa">
+            </a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nuestra-vision">Nuestra Visión</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="hero">
+        <h1>Síndrome de Burnout</h1>
+        <p>¿Qué es el síndrome de Burnout? Es un proceso secundario a una respuesta negativa al estrés laboral crónico, que aparece cuando fallan las estrategias funcionales de afrontamiento que el sujeto suele emplear. Describe un estado psicológico que aparece luego de un periodo prolongado de exposición a factores de riesgo psicosocial.</p>
+    </div>
+    <section class="two-columns-section">
+        <div class="column">
+            <img src="/Users/amauryvilla/Desktop/iStock-1133638259.jpg" alt="Imagen Descriptiva"> 
+        </div>
+        <div class="column">
+            <h2>Título de la Sección</h2>
+            <div class="text-box">
+                <p>Existe un desbalance entre la vida profesional y personal por parte del personal de salud.</p>
+            </div>
+            <a href="#productos">Ver Productos</a>
+        </div>
+    </section>
+    <section class="three-columns-section">
+        <div class="column">
+            <h2>Terapias</h2>
+            <img src="/Users/amauryvilla/Desktop/Mi-querida-psicóloga-blanca.jpg" alt="Terapias">
+        </div>
+        <div class="column">
+            <h2>Material de Estudio y de Organización</h2>
+            <img src="/Users/amauryvilla/Desktop/KitdeAnatomia-productopagweb_42.webp" alt="Material de Estudio">
+        </div>
+        <div class="column">
+            <h2>Asesorías Académicas</h2>
+            <img src="/Users/amauryvilla/Desktop/images.jpg" alt="Asesorías Académicas">
+        </div>
+    </section>
+    <footer>
+        <div class="social-buttons">
+            <a href="#" title="Facebook">FB</a>
+            <a href="#" title="Twitter">TW</a>
+            <a href="#" title="Instagram">IG</a>
+            <a href="#" title="LinkedIn">LI</a>
+        </div>
+        <span class="rights">© 2024 Todos los derechos reservados.</span>
+    </footer>
+</body>
+</html>
